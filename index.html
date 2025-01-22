@@ -18,7 +18,47 @@
     />
   </head>
   <body>
-    
+    <header>
+      <div class="headerContainer">
+        <!-- headerContainerをjustify-content:space-betweenに設定（ロゴが左端、navContainerが右端に行くハズ） -->
+        
+        <div class="headerLogo">
+          <!-- 仮でh1タグを入れておく -->
+           <h1 class="myLogo">portFolio.</h1>
+        </div>
+          <!-- headerNavContainerはjustify-content:flex-endに設定（右端ぴったりにcontactが来るハズ） -->
+        <nav class="headerNavContaner">
+          <ul class="headerNav">
+            <li><a href="#">about</a></li>
+            <li><a href="#">works</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+         <!-- headerNavContainer閉じ -->
+      </div>
+      <!-- headerContainer閉じ -->
+    </header>
+
+    <div class="main"></div>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="footerLogo">
+          <h2 class="myLogo">portFolio.</h2>
+        </div>
+        <div class="footerNav">
+          <nav>
+            <ul>
+              <li><a href="#">about</a></li>
+              <li><a href="#">works</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- footerNav閉じ -->
+      </div>
+      <!-- footerContainer閉じ -->
+    </footer>
   </body>
 
 </html>
