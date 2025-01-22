@@ -56,6 +56,11 @@ a {
     font-family: "M PLUS 1p", serif;
 }
 
+.titleContainer {
+    max-height: 500px;
+    height: 100%;
+}
+
 .footerContainer {
     display: flex;
     justify-content: space-between;
