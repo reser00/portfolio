@@ -43,9 +43,9 @@
       <div class="titleContainer">
         <!-- フリー背景とタイトルコピーの要素を突っ込む -->
          <!-- 以下背景素材の読み込み -->
-         <picture>
-          <source srcset="./img/portfolio_background.webp" type="image/webp"/>
-          <source srcset="./img/portfolio_background.png" type="image/png"/>
+         <picture class="background">
+          <source srcset="./img/portfolio_background.webp" type="image/webp" width="100%" height="400px"/>
+          <img src="./img/portfolio_background.png" alt="background" width="100%" height="400px"/>
           <!-- webp形式に対応しているならwebpで表示、対応していないならpngで表示 -->
          </picture>
          <!-- 背景の読み込み閉じ -->
@@ -53,6 +53,11 @@
       <!-- titleContainer閉じ -->
       <div class="aboutContainer">
         <!-- 自己紹介要素を突っ込む -->
+        <h2>about-me</h2>
+        <p>異業種からの転職を目論む一般人。</p>
+        <p>勉強することが多くて早速折れそう。</p>
+        <p>高専出身、化学系の学部を卒業。その後は工場勤務。</p>
+        <p>今の所の目標はJSかPythonを無理なく扱えるレベルになること。</p>
       </div>
       <!-- aboutContainer閉じ -->
       <div class="workContainer">
