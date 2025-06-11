@@ -30,6 +30,9 @@ img {
     height: auto;
 }
 /* スタイルリセット完了 */
+p {
+    font-size: 14px;
+}
 
 .headerContainer {
     display: flex;
@@ -69,20 +72,66 @@ img {
 
 .background {
     display: block;
-    height: 500px;
+    max-height: 500px;
+    min-height:300px;
     width: 100%;
     overflow: hidden;
 }
 
+/* about */
+
 .aboutContainer {
-    height: 300px;
+    max-height: 300px;
+    background-color:#89b1c2;
+    justify-content: space-between;
 }
 
+.aboutContents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 75px;
+}
+
+.aboutSentence p{
+    font-size: 14px;
+
+}
+
+/* work */
+
+.workContainer {
+    background-color: #88a2bd;
+}
+
+.workContents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.workImg {
+    max-width: 300px;
+}
+
+.workSentence a{
+    font-size: 22px;
+}
+
+/* contact */
+.contactContainer a{
+    font-size: 22px;
+}
+
+/* footer */
 .footerContainer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     height: 100%;
     background-color: #124d4c;
+    color: #d0e0e0;
 }
 
 .footerLogo {
